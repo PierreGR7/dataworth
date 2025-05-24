@@ -4,7 +4,7 @@ Un mini-SaaS en Python qui aide à **évaluer la pertinence d’un projet data**
 
 ---
 
-## 🔍 Fonctionnalités
+## Fonctionnalités
 
 - Interface Streamlit simple et intuitive
 - Évaluation basée sur :
@@ -21,10 +21,11 @@ Un mini-SaaS en Python qui aide à **évaluer la pertinence d’un projet data**
 
 ---
 
-## 🚀 Lancer l'application en local
+## Lancer l'application en local
 
 ```bash
 git clone https://github.com/ton-repo/dataworth.git
-cd dataworth_mvp
+cd dataworth
 pip install -r requirements.txt
+python3 train_model.py
 streamlit run app.py
